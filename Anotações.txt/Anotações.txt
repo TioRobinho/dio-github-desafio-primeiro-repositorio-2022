@@ -1,0 +1,28 @@
+Título:Kotlin,Conteúdo:Kotlin
+
+
+* Estou pegando, estou utilizando o Get
+
+* 
+
+
+* Set: função que atribui valor àquela propriedade
+
+* Toda propriedade tem seu Set e o seu Get
+
+* Private: modificador de visibilidade.
+
+* Funções: permitem os objetos terem comportamento.
+
+*Propriedades: permitem os objetos terem estados
+
+* Quando eu estancio a pessoa jether, ele tem um comportamento e um estado que trazem as informações dele, então isso é membro. São os membros de uma classe.
+
+*Na parte de class: membros, que são os construtores primários e secundários.
+
+*Posso usar modificadores de visibilidade, no entanto vou ter que entender que esses modificadores influenciam no geral, isso para as propriedades var.
+
+*A class que tem que saber mexer em seus estados e comportamentos.
+
+*Data class: armazenar dados que uma vez inicializados, não possam ser mudados, mas tem como serem  copiados.
+ARMAZENAR UM ESTADO NAQUELE OBJETO E NÃO MAIS  MODIFICA LO, VAMOS PENSA LO COMO IMUTÁVEL. Uma Data class não pode ser abstrata, pode implementar interfaces, todos os construtores primários tem que ser inicializados, e aquele objeto pode ser copiado, permitindo que partir daquele ponto que se copie, você passe a manipular aquela cópia, onde a partir dela você inicializa novamente informações ou estado novo, mas aquele objeto com aquele estado anterior permanece numa referência da memória.
